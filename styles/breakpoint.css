@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+    .container {
+      margin-top: 50px;
+    }
+  
+    .hero-wrapper {
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
+  
+    .text-container {
+     justify-content: center;
+      text-align: center; 
+    }
+  
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+  @media (max-width: 590px) {
+    .navbar-link{
+      display: none;
+    }
+    .navbar-mobile{
+      display: block;
+    }
+  }
+

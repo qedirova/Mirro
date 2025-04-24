@@ -1,0 +1,70 @@
+.services {
+  padding: 150px 0;
+}
+
+.services-introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.services-introduction h1 {
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.services-introduction p {
+  text-align: center;
+  max-width: 590px;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #e1e0dc;
+  width: 350px;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.services-card img {
+  width: 48px;
+  height: 48px;
+}
+
+.services-card h3 {
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.services-card p {
+  color: #292c32;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.services-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: max-content;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-size: 17px;
+}
+
+.services-btn img {
+  width: 20px;
+  height: 10px;
+}

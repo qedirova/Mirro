@@ -1,8 +1,10 @@
-.hero-wrapper {
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
+  margin-top: 50px;
+  background-color: #f4f3f0;
 }
 
 .text-container {
@@ -33,13 +35,12 @@
   color: #000;
 }
 
-.btn-hero {
+.hero-btn {
   background-color: var(--primary-color);
   color: #fff;
   padding: 15px 25px;
   border-radius: 6px;
-  width: 125px;
-  height: 58px;
+  width: max-content;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }

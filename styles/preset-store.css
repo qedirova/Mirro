@@ -1,4 +1,4 @@
-.preset-stores {
+.preset-stores{
  padding: 150px;
 }
 
@@ -12,13 +12,13 @@
 
 }
 
-.preset-stores-introduction h1 {
+.preset-stores-introduction h1{
     font-family: "Source Serif 4";
     font-weight: 400;
     font-size: 32px;
   }
 
-  .preset-stores-introduction p {
+  .preset-stores-introduction p{
     text-align: center;
     max-width: 590px;
   }

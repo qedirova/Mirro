@@ -1,0 +1,24 @@
+.preset-stores {
+ padding: 150px;
+}
+
+.preset-stores-introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+
+}
+
+.preset-stores-introduction h1 {
+    font-family: "Source Serif 4";
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .preset-stores-introduction p {
+    text-align: center;
+    max-width: 590px;
+  }

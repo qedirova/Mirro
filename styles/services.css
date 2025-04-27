@@ -1,5 +1,6 @@
 .services {
   padding: 150px 0;
+  /* background-color: #ffffffe8; */
 }
 
 .services-introduction {
@@ -50,6 +51,7 @@
 
 .services-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
 }

@@ -19,6 +19,15 @@
   }
 }
 
+@media (max-width: 600px) {
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 50px;
+  }
+}
+
 @media (max-width: 500px) {
   .title {
     font-size: 30px;
